@@ -1,0 +1,28 @@
+baseURL: "https://darshandeshmukh11.github.io/"
+languageCode: "en-us"
+title: "Darshan Deshmukh"
+theme: "PaperMod"
+pagination:
+  pagerSize: 5
+
+params:
+  homeInfoParams:
+    Title: "Hi, I am Darshan Deshmukh"
+    Content: >
+      Welcome to my personal website.  
+      I'm passionate about DevOps, Cloud, and Automation.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/<your-username>"
+    - name: linkedin
+      url: "https://linkedin.com/in/<your-profile>"
+    - name: email
+      url: "mailto:you@example.com"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 10
